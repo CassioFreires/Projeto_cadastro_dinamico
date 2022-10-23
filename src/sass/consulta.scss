@@ -1,0 +1,59 @@
+
+// Pagina da tabela
+$font_style: 'VT323', monospace;
+;
+$font_style_2: 'Share Tech Mono', monospace;
+body {
+    .main-conteudo {
+        .section {
+            border: none;
+
+            table {
+                width: 100%;
+                box-sizing: border-box;
+                padding: 5px;
+                thead {
+                    tr {
+                        th {
+                            box-sizing: border-box;
+                            padding: 5px;
+                            border: 2px solid rgba(0, 0, 0, 0.788);
+                            font-family: $font_style_2;
+                            background-color: rgb(7, 7, 7);
+                            color: #fff;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td{
+                            text-align: center;
+                            border: 2px dashed rgb(11, 30, 65);
+                            box-sizing: border-box;
+                            padding: 5px;
+                            button{
+                                background-color: rgb(154,154,146);
+                                padding: 13px;
+                                &:hover{
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        &:nth-child(even){
+                            background-color: rgb(148, 196, 196);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .img-delete {
+        background-image: url('../img/delete.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

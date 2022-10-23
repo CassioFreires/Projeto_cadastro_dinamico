@@ -1,0 +1,21 @@
+// Responsividade da tabela
+@media (min-width: 300px) and (max-width: 576px) {
+    body {
+        .main-conteudo {
+            table {
+                width: 85%;
+                thead {
+                    tr {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+                tbody{
+                    td{
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}

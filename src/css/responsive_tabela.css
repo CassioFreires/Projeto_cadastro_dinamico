@@ -1,0 +1,14 @@
+@media (min-width: 300px) and (max-width: 576px) {
+  body .main-conteudo table {
+    width: 85%;
+  }
+  body .main-conteudo table thead tr {
+    display: flex;
+    flex-direction: column;
+  }
+  body .main-conteudo table tbody td {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=responsive_tabela.css.map */

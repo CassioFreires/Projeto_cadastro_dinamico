@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <link rel="stylesheet" href="src/css/responsive_tabela.css">
+  <link rel="stylesheet" href="src/css/consulta.css">
+  <title>Consultar usuários</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header-topo">
+      <nav class="header-nav-topo">
+        <ul class="header-nav-ul-topo">
+          <li><a href="index.html">Cadastro</a></li>
+          <li><a href="consulta.html">Consulta</a></li>
+        </ul>
+      </nav>
+      <!-- Menu hamburguer -->
+      <div class="header-menu-hamburguer">
+        <img src="src/img/menu.png" alt="">
+      </div>
+    </header>
+    <!-- Fim Header -->
+    <main class="main-conteudo">
+      <h1>Usuários cadastrados</h1>
+      <section class="section">
+        <table id="tabela">
+          <thead>
+            <tr>
+              <th>Nome e Sobrenome</th>
+              <th>Telefone</th>
+              <th>E-mail</th>
+              <th>Cep</th>
+              <th>Cidade</th>
+              <th>Rua</th>
+              <th>Bairro</th>
+              <th>UF</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+  <script src="src/js/consulta.js" defer></script>
+</body>
+
+</html>
